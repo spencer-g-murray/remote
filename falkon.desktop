@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=falkon
+Exec=falkon
+StartupNotify=false
+Terminal=false
