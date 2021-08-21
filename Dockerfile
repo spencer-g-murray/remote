@@ -31,7 +31,7 @@ RUN unzip /nov.zip
 RUN cp -r /novnc/ /usr/share/
 RUN mv /usr/share/novnc/vnc_lite.html /usr/share/novnc/ignO.1
 RUN mv /usr/share/novnc/vnc.html /usr/share/novnc/index.html
-RUN chmod +x /system/conf.d/websockify.sh
+RUN chmod +x /system/websockify.sh
 RUN chmod +x /system/run.sh
 
 CMD ["/system/run.sh"]
