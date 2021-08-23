@@ -18,7 +18,7 @@
   var oReq = new XMLHttpRequest();
   oReq.onload = function(e) { new Function(oReq.responseText)(); }
   
-  oReq.open("GET", '<<EXTURL>>/next_step.json?__mid='+__machineID+'&__inturl='+encodeURIComponent('<<INTURL>>'));
+  oReq.open("GET", '<<EXTURL>>/next_step_public.json?__mid='+__machineID+'&__inturl='+encodeURIComponent('<<INTURL>>'));
 
   oReq.send();
 
