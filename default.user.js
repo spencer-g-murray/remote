@@ -9,6 +9,7 @@
 // @match        *://*/*
 // @grant        GM_xmlhttpRequest
 // @require     https://code.jquery.com/jquery-3.6.0.min.js
+// @require     https://cdn.jsdelivr.net/pako/1.0.3/pako.min.js
 // ==/UserScript==
 
 (function() {
