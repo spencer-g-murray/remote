@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
 Name=falkon
-Exec=falkon
+Exec=systemd-run --scope -p MemoryMax=512M falkon
 StartupNotify=false
 Terminal=false
